@@ -25,3 +25,38 @@ I very willing to learn and develop new skills. My goal is to gain knowledge in 
 - Adobe Photoshop, Figma
 
 ---
+
+## Code example:
+
+### Remove the minimum
+
+```
+function removeSmallest(numbers) {
+  let arr = [];
+  let minValue = numbers.indexOf(Math.min.apply(null, numbers));
+  numbers.forEach((elem, index) => {
+    if (index !== minValue) {
+      arr.push(elem);
+    }
+  });
+  return arr;
+}
+
+```
+
+---
+
+## Courses:
+
+- CS50 video course
+- JS, CSS, HTML, Git video courses on YouTube channel: **Glo Academy**
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+
+---
+
+## Languages:
+
+- Russian
+- English (A2)
+
+---
